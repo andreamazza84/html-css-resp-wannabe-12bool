@@ -3,14 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+section{
+  margin-top: 80px;
+}
+.container{
+  text-align: center;
+}
 .grey{
   background-color: #f9f9f9;
 }
-
-.container{
-  margin-top: 50px;
+h1 {
+  font-size: 35px;
 }
-.container:last-of-type{
+h2, p {
+  margin-top: 15px;
+}
+p{
+  display: inline-block;
+  width: 90%;
+  font-size: 18px;
+}
+img {
+  height: 180px;
+  margin-top: 20px;
+}
+
+#whycademy .container:last-of-type{
   margin-top: 5px;
 }
+#whycademy img{
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 15px;
+  margin-top: 30px;
+}
+#whycademy h3{
+  margin-top: 15px;
+}
+#whycademy hr{
+  display: inline-block;
+  width: 90%;
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #808080;
+  margin-top: 15px;
