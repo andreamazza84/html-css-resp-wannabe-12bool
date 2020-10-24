@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grey{
+  background-color: #f9f9f9;
+}
+
+.container{
+  margin-top: 50px;
+}
+.container:last-of-type{
+  margin-top: 5px;
+}
