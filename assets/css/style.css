@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: cambria;
+}
 section{
   margin-top: 80px;
 }
@@ -27,8 +30,7 @@ img {
   height: 180px;
   margin-top: 20px;
 }
-
-#whycademy .container:last-of-type{
+#whycademy .container{
   margin-top: 5px;
 }
 #whycademy img{
@@ -46,3 +48,42 @@ img {
   border-top: 1px solid #555555;
   border-bottom: 1px solid #808080;
   margin-top: 15px;
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  #whycademy p{
+    height: 130px;
+  }
+  #whycademy .col-md-6:last-child p:last-child{
+    height: auto;
+  }
+}
+
+@media all and (max-width: 768px){
+  section{
+    margin-top: 0;
+  }
+  .grey{
+    background-color: transparent;
+  }
+  .container:nth-of-type(odd) {
+    background-color: #f2f2cd;
+  }
+  h1{
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  img{
+    height: 150px;
+  }
+  .container{
+    padding: 10px;
+  }
+  #whycademy .container{
+    margin-top: 0;
+  }
+  #whycademy h3{
+    margin-top: 0;
+    padding-top: 15px;
+  }
+}
